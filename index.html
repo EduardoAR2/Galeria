@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <title>Galeria</title>
+  </head>
+  <body>
+    <div class="container">
+      <menu class="menu">
+        <div class="menu-icon" id="menu-icon">
+          <i class="bi bi-list"></i>
+        </div>
+        <a href="index.html"><h1>ImageHive</h1></a>
+      </menu>
+      <aside class="sidebar">
+        <div class="menu-icon" id="close-icon"><i class="bi bi-x"></i></div>
+        <a href=""><h1>ImageHive</h1></a>
+
+        <div class="input-container">
+            <input type="text" placeholder="" id="search" />
+            <label for="search"
+              ><i class="bi bi-search"></i> Buscar Imagenes
+            </label>
+          </div>
+        <h2>Categorias</h2>
+        <div class="line"></div>
+
+
+        <ul>
+          <li data-category="abstract">Abstracto</li>
+          <li data-category="art">Arte</li>
+          <li data-category="space">Astronomía</li>
+          <li data-category="sunshine">Atardecer</li>
+          <li data-category="cars">Autos</li>
+          <li data-category="city">Ciudades</li>
+          <li data-category="fantasy">Fantasía</li>
+          <li data-category="sea">Mar</li>
+          <li data-category="nature">Naturaleza</li>
+          <li data-category="technology">Tecnologia</li>
+          <li data-category="random"><i class="bi bi-fire"></i> Populares</li>
+
+          <div class="line"></div>
+        </ul>
+
+      <p class="footer">©2025 Por Eduardo Aguiñaga</p>
+      </aside>
+      <main class="gallery">
+        <!-- aqui se cargaran las imagenes -->
+      </main>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
